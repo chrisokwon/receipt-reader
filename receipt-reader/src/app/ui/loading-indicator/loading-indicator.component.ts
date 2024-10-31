@@ -4,9 +4,9 @@ import { Observable, tap } from 'rxjs';
 import { LoadingService } from 'src/app/services/loading-service.service';
 
 @Component({
-  selector: 'app-loading-indicator-component',
-  templateUrl: './loading-indicator-component.component.html',
-  styleUrls: ['./loading-indicator-component.component.css']
+  selector: 'app-loading-indicator',
+  templateUrl: './loading-indicator.component.html',
+  styleUrls: ['./loading-indicator.component.css']
 })
 export class LoadingIndicatorComponent implements OnInit {
 
